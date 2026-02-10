@@ -1,5 +1,5 @@
 //Custom hook for counter useCounter
-import useCounter from "./useCounter";
+import useCounter from "../hooks/useCounter";
 
 export const Counter = () => {
   const { count, increment, decrement, reset } = useCounter(10);
