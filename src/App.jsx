@@ -6,7 +6,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import { MyForm } from "./components/MyForm";
 import { MyTable } from "./components/MyTable";
-import Counter from "./components/Counter";
+import { Counter } from "./components/Counter";
 
 function App() {
   const myDetails = ["John", "Doe"];
@@ -17,16 +17,21 @@ function App() {
 
   return (
     <>
-      {/* <NavBar title="This is my title" />
-      <NavBar mydetails={myDetails} /> */}
+      {/* <NavBar
+        title="This is passed from props"
+        content="This content is passed form props as well"
+      /> */}
+      {/* <NavBar mydetails={myDetails} /> */}
+      {/* <NavBar title="This is my title" /> */}
+      {/* <NavBar mydetails={myDetails} /> */}
       {/* <NavBar mydet={myDet} /> */}
-      <NavBar>
+      {/* <NavBar>
         <p>This is children</p>
-      </NavBar>
+      </NavBar> */}
 
-      <MyForm />
+      {/* <MyForm /> */}
 
-      <MyTable />
+      {/* <MyTable /> */}
 
       <Counter />
     </>
